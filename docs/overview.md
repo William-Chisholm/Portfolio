@@ -29,15 +29,29 @@ This project is a **modern, full stack developer portfolio** designed to showcas
 ## 📂 Folder Structure
 
 ```bash
-.
-├── app/                  # Next.js app routes
-│   ├── page.tsx          # Homepage
-│   ├── about/            # About page
-│   ├── projects/         # Projects page
-│   └── contact/          # Contact form or placeholder
-├── components/           # Navbar, Footer, reusable components
-├── lib/                  # Theme context and helpers
-├── public/               # Static assets (profile images, favicons)
-├── styles/               # Global and MUI theme overrides
-├── tests/                # Unit and integration tests
-└── README.md             # Project summary
+└── 📁backend
+└── 📁frontend
+        └── package.json
+    └── 📁app
+        └── 📁about
+            └── page.tsx
+        └── 📁contact
+            └── page.tsx
+        └── favicon.ico
+        └── globals.css
+        └── layout.tsx
+        └── page.module.css
+        └── page.tsx
+        └── 📁projects
+            └── page.tsx
+    └── 📁components
+        └── ComingSoon.tsx
+        └── Footer.tsx
+        └── Navbar.tsx
+        └── ProjectCard.tsx
+    └── 📁hooks
+    └── 📁lib
+        └── theme.ts
+        └── ThemeContext.tsx
+    └── 📁public
+        └── headshot.jpg
