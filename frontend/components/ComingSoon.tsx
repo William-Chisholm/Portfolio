@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Typography, Container } from '@mui/material'
+import { Typography, Container } from '@mui/material'
 import ConstructionIcon from '@mui/icons-material/Construction'
 
 export default function ComingSoon() {
