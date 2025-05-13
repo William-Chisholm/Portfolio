@@ -8,8 +8,8 @@
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
-  align-items: center;
-  justify-items: center;
+  align-items: start;
+  justify-items: start;
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
@@ -74,8 +74,8 @@
     border-color 0.2s;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -100,7 +100,7 @@ a.secondary {
 
 .footer a {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 8px;
 }
 
@@ -133,11 +133,11 @@ a.secondary {
   }
 
   .main {
-    align-items: center;
+    align-items: start;
   }
 
   .main ol {
-    text-align: center;
+    text-align: start;
   }
 
   .ctas {
@@ -156,8 +156,8 @@ a.secondary {
 
   .footer {
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
   }
 }
 
