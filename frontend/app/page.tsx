@@ -1,6 +1,10 @@
 'use client'
 
-import { Container, Typography, Box, Avatar, Stack } from '@mui/material'
+import Container from '@mui/material/Container'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
+import Avatar from '@mui/material/Avatar'
+import Stack from '@mui/material/Stack'
 
 export default function Home() {
   return (
