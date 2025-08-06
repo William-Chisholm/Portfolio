@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 import { CustomThemeProvider } from '../lib/ThemeContext'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import ParticlesBackground from '@/components/ParticlesBackground' // adjust path as needed
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -35,10 +36,13 @@ export default function RootLayout({
           flexDirection: 'column',
           minHeight: '100vh',
           margin: 0,
+          position: 'relative', // make sure body is a stacking context
+          overflowX: 'hidden',
         }}
       >
         <CustomThemeProvider>
           <CssBaseline />
+          <ParticlesBackground />
           <Navbar />
           <main style={{ flex: 1 }}>{children}</main>
           <Footer />
